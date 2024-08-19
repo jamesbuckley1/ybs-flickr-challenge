@@ -11,7 +11,7 @@ import SwiftUI
 struct ybs_flickr_challengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GalleryView()
         }
     }
 }

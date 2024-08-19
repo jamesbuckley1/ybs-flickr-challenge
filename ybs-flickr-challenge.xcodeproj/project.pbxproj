@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A047DFB2C740040006517BB /* FlickrImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A047DFA2C740040006517BB /* FlickrImageData.swift */; };
 		1AEC4BB12C72AE1F00A50B16 /* ybs_flickr_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BB02C72AE1F00A50B16 /* ybs_flickr_challengeApp.swift */; };
-		1AEC4BB32C72AE1F00A50B16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BB22C72AE1F00A50B16 /* ContentView.swift */; };
 		1AEC4BB52C72AE2000A50B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC4BB42C72AE2000A50B16 /* Assets.xcassets */; };
 		1AEC4BB82C72AE2000A50B16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC4BB72C72AE2000A50B16 /* Preview Assets.xcassets */; };
 		1AEC4BC22C72AE2100A50B16 /* ybs_flickr_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BC12C72AE2100A50B16 /* ybs_flickr_challengeTests.swift */; };
 		1AEC4BCC2C72AE2100A50B16 /* ybs_flickr_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BCB2C72AE2100A50B16 /* ybs_flickr_challengeUITests.swift */; };
 		1AEC4BCE2C72AE2100A50B16 /* ybs_flickr_challengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BCD2C72AE2100A50B16 /* ybs_flickr_challengeUITestsLaunchTests.swift */; };
+		1AEC4BDE2C72B05500A50B16 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BDD2C72B05500A50B16 /* GalleryView.swift */; };
+		1AEC4BE02C72B06000A50B16 /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BDF2C72B06000A50B16 /* GalleryViewModel.swift */; };
+		1AEC4BE42C72B0D200A50B16 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BE32C72B0D200A50B16 /* ImageDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A047DFA2C740040006517BB /* FlickrImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrImageData.swift; sourceTree = "<group>"; };
+		1A047DFC2C740CD7006517BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1AEC4BAD2C72AE1F00A50B16 /* ybs-flickr-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ybs-flickr-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AEC4BB02C72AE1F00A50B16 /* ybs_flickr_challengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ybs_flickr_challengeApp.swift; sourceTree = "<group>"; };
-		1AEC4BB22C72AE1F00A50B16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1AEC4BB42C72AE2000A50B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AEC4BB72C72AE2000A50B16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1AEC4BBD2C72AE2100A50B16 /* ybs-flickr-challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ybs-flickr-challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,9 @@
 		1AEC4BC72C72AE2100A50B16 /* ybs-flickr-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ybs-flickr-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AEC4BCB2C72AE2100A50B16 /* ybs_flickr_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ybs_flickr_challengeUITests.swift; sourceTree = "<group>"; };
 		1AEC4BCD2C72AE2100A50B16 /* ybs_flickr_challengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ybs_flickr_challengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1AEC4BDD2C72B05500A50B16 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		1AEC4BDF2C72B06000A50B16 /* GalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
+		1AEC4BE32C72B0D200A50B16 /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +101,11 @@
 		1AEC4BAF2C72AE1F00A50B16 /* ybs-flickr-challenge */ = {
 			isa = PBXGroup;
 			children = (
+				1A047DFC2C740CD7006517BB /* Info.plist */,
+				1AEC4BDC2C72B02E00A50B16 /* Models */,
+				1AEC4BDB2C72B02400A50B16 /* Views */,
+				1AEC4BDA2C72B01700A50B16 /* ViewModels */,
 				1AEC4BB02C72AE1F00A50B16 /* ybs_flickr_challengeApp.swift */,
-				1AEC4BB22C72AE1F00A50B16 /* ContentView.swift */,
 				1AEC4BB42C72AE2000A50B16 /* Assets.xcassets */,
 				1AEC4BB62C72AE2000A50B16 /* Preview Content */,
 			);
@@ -125,6 +135,31 @@
 				1AEC4BCD2C72AE2100A50B16 /* ybs_flickr_challengeUITestsLaunchTests.swift */,
 			);
 			path = "ybs-flickr-challengeUITests";
+			sourceTree = "<group>";
+		};
+		1AEC4BDA2C72B01700A50B16 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1AEC4BDF2C72B06000A50B16 /* GalleryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1AEC4BDB2C72B02400A50B16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AEC4BDD2C72B05500A50B16 /* GalleryView.swift */,
+				1AEC4BE32C72B0D200A50B16 /* ImageDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1AEC4BDC2C72B02E00A50B16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A047DFA2C740040006517BB /* FlickrImageData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AEC4BB32C72AE1F00A50B16 /* ContentView.swift in Sources */,
 				1AEC4BB12C72AE1F00A50B16 /* ybs_flickr_challengeApp.swift in Sources */,
+				1AEC4BE02C72B06000A50B16 /* GalleryViewModel.swift in Sources */,
+				1A047DFB2C740040006517BB /* FlickrImageData.swift in Sources */,
+				1AEC4BDE2C72B05500A50B16 /* GalleryView.swift in Sources */,
+				1AEC4BE42C72B0D200A50B16 /* ImageDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +455,7 @@
 		1AEC4BD22C72AE2100A50B16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				API_KEY = ee1b13f4c11dedd3a9cb02f8d1ef80b4;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -425,6 +464,7 @@
 				DEVELOPMENT_TEAM = 8Y3GD7A447;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ybs-flickr-challenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -446,6 +486,7 @@
 		1AEC4BD32C72AE2100A50B16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				API_KEY = ee1b13f4c11dedd3a9cb02f8d1ef80b4;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +495,7 @@
 				DEVELOPMENT_TEAM = 8Y3GD7A447;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ybs-flickr-challenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
