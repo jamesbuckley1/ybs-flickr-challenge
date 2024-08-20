@@ -14,7 +14,7 @@ struct GalleryView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                VStack {
+                VStack(spacing: 0) {
                     GallerySearchBar()
                     TagModeToggle(isOn: $viewModel.tagMode)
                     GalleryImageList()
@@ -49,7 +49,9 @@ struct GallerySearchBar: View {
                     viewModel.searchQuery = newValue.split(separator: " ").map { String($0) }
                 }
             ))
-            .textFieldStyle(RoundedBorderTextFieldStyle())
+            .font(.system(size: 16, weight: .bold))
+            .foregroundColor(.primary)
+            .textFieldStyle(.roundedBorder)
             .onSubmit {
                 viewModel.fetchImagesAndTags()
             }
@@ -74,8 +76,11 @@ struct TagModeToggle: View {
     var body: some View {
         Toggle(isOn: $isOn) {
             Text("Search photos containing all tags")
+                .foregroundColor(.primary)
+                .font(.system(size: 14, weight: .bold))
         }
-        .padding()
+        .padding(20)
+        .tint(.blue)
     }
 }
 
@@ -111,7 +116,6 @@ struct GalleryImageList: View {
                 }
             }
         }
-        //.frame(maxWidth: .infinity) maybe put back?? test
     }
 }
 
@@ -124,7 +128,7 @@ struct GalleryImageCell: View {
     var body: some View {
         VStack {
             Rectangle()
-                .fill(.gray)
+                .fill(.gray).opacity(0.5)
                 .frame(height: 5)
             NavigationLink(destination: UserDetailView(
                 viewModel: UserDetailViewModel(user: imageData.user)
@@ -164,13 +168,15 @@ struct GalleryImageCell: View {
                         .padding(10)
                         .background(.blue)
                         .foregroundColor(.white)
+                        .font(.system(size: 14, weight: .bold))
                         .clipShape(Capsule())
                     }
+                    .padding(.bottom, 10)
                 }
                 HStack {
                     Text(showTags ? "Hide Tags"  : "Show Tags")
-                        .foregroundColor(.blue)
-                        .font(.system(size: 14, weight: .bold))
+                        .foregroundColor(.primary)
+                        .font(.system(size: 16, weight: .bold))
                     Image(systemName: showTags ? "chevron.up" : "chevron.down")
                         .foregroundColor(.blue)
                 }
