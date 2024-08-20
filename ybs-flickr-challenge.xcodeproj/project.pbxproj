@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1A047DFB2C740040006517BB /* FlickrImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A047DFA2C740040006517BB /* FlickrImageData.swift */; };
+		1A047E022C742E8F006517BB /* TagCloud in Frameworks */ = {isa = PBXBuildFile; productRef = 1A047E012C742E8F006517BB /* TagCloud */; };
+		1A047E042C743954006517BB /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A047E032C743954006517BB /* UserDetailView.swift */; };
 		1AEC4BB12C72AE1F00A50B16 /* ybs_flickr_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BB02C72AE1F00A50B16 /* ybs_flickr_challengeApp.swift */; };
 		1AEC4BB52C72AE2000A50B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC4BB42C72AE2000A50B16 /* Assets.xcassets */; };
 		1AEC4BB82C72AE2000A50B16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC4BB72C72AE2000A50B16 /* Preview Assets.xcassets */; };
@@ -17,6 +19,26 @@
 		1AEC4BDE2C72B05500A50B16 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BDD2C72B05500A50B16 /* GalleryView.swift */; };
 		1AEC4BE02C72B06000A50B16 /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BDF2C72B06000A50B16 /* GalleryViewModel.swift */; };
 		1AEC4BE42C72B0D200A50B16 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BE32C72B0D200A50B16 /* ImageDetailView.swift */; };
+		1AFA1ED82C744FCC0046FA30 /* UserDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1ED72C744FCC0046FA30 /* UserDetailViewModel.swift */; };
+		1AFA1EDA2C75403E0046FA30 /* MockGalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1ED92C75403E0046FA30 /* MockGalleryViewModel.swift */; };
+		1AFA1EDC2C75405B0046FA30 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1EDB2C75405B0046FA30 /* MockData.swift */; };
+		1AFA1EDE2C7540900046FA30 /* FlickrUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1EDD2C7540900046FA30 /* FlickrUser.swift */; };
+		1AFA1EDF2C7540900046FA30 /* FlickrUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1EDD2C7540900046FA30 /* FlickrUser.swift */; };
+		1AFA1EE12C7540C30046FA30 /* FlickrTagsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1EE02C7540C30046FA30 /* FlickrTagsResponse.swift */; };
+		1AFA1EE22C7540C30046FA30 /* FlickrTagsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1EE02C7540C30046FA30 /* FlickrTagsResponse.swift */; };
+		1AFA1EE42C7541120046FA30 /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1EE32C7541120046FA30 /* FlickrPhoto.swift */; };
+		1AFA1EE52C7541120046FA30 /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1EE32C7541120046FA30 /* FlickrPhoto.swift */; };
+		1AFA1EE72C7541780046FA30 /* FlickrResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1EE62C7541780046FA30 /* FlickrResponse.swift */; };
+		1AFA1EE82C7541780046FA30 /* FlickrResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1EE62C7541780046FA30 /* FlickrResponse.swift */; };
+		1AFA1EEA2C75418D0046FA30 /* FlickrPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1EE92C75418D0046FA30 /* FlickrPhotos.swift */; };
+		1AFA1EEB2C75418D0046FA30 /* FlickrPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1EE92C75418D0046FA30 /* FlickrPhotos.swift */; };
+		1AFA1EED2C7541B40046FA30 /* FlickrUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1EEC2C7541B40046FA30 /* FlickrUserResponse.swift */; };
+		1AFA1EEE2C7541B40046FA30 /* FlickrUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1EEC2C7541B40046FA30 /* FlickrUserResponse.swift */; };
+		1AFA1EF02C7541C20046FA30 /* FlickrTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1EEF2C7541C20046FA30 /* FlickrTag.swift */; };
+		1AFA1EF12C7541C20046FA30 /* FlickrTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1EEF2C7541C20046FA30 /* FlickrTag.swift */; };
+		1AFA1EF22C7542100046FA30 /* FlickrImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A047DFA2C740040006517BB /* FlickrImageData.swift */; };
+		1AFA1EF32C7544A90046FA30 /* MockGalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA1ED92C75403E0046FA30 /* MockGalleryViewModel.swift */; };
+		1AFA1EF42C75456F0046FA30 /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BDF2C72B06000A50B16 /* GalleryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +61,7 @@
 /* Begin PBXFileReference section */
 		1A047DFA2C740040006517BB /* FlickrImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrImageData.swift; sourceTree = "<group>"; };
 		1A047DFC2C740CD7006517BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1A047E032C743954006517BB /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 		1AEC4BAD2C72AE1F00A50B16 /* ybs-flickr-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ybs-flickr-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AEC4BB02C72AE1F00A50B16 /* ybs_flickr_challengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ybs_flickr_challengeApp.swift; sourceTree = "<group>"; };
 		1AEC4BB42C72AE2000A50B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +74,16 @@
 		1AEC4BDD2C72B05500A50B16 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		1AEC4BDF2C72B06000A50B16 /* GalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
 		1AEC4BE32C72B0D200A50B16 /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
+		1AFA1ED72C744FCC0046FA30 /* UserDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewModel.swift; sourceTree = "<group>"; };
+		1AFA1ED92C75403E0046FA30 /* MockGalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockGalleryViewModel.swift; sourceTree = "<group>"; };
+		1AFA1EDB2C75405B0046FA30 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		1AFA1EDD2C7540900046FA30 /* FlickrUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrUser.swift; sourceTree = "<group>"; };
+		1AFA1EE02C7540C30046FA30 /* FlickrTagsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrTagsResponse.swift; sourceTree = "<group>"; };
+		1AFA1EE32C7541120046FA30 /* FlickrPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhoto.swift; sourceTree = "<group>"; };
+		1AFA1EE62C7541780046FA30 /* FlickrResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrResponse.swift; sourceTree = "<group>"; };
+		1AFA1EE92C75418D0046FA30 /* FlickrPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrPhotos.swift; sourceTree = "<group>"; };
+		1AFA1EEC2C7541B40046FA30 /* FlickrUserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrUserResponse.swift; sourceTree = "<group>"; };
+		1AFA1EEF2C7541C20046FA30 /* FlickrTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrTag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A047E022C742E8F006517BB /* TagCloud in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				1AEC4BDF2C72B06000A50B16 /* GalleryViewModel.swift */,
+				1AFA1ED72C744FCC0046FA30 /* UserDetailViewModel.swift */,
+				1AFA1ED92C75403E0046FA30 /* MockGalleryViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -150,6 +186,7 @@
 			children = (
 				1AEC4BDD2C72B05500A50B16 /* GalleryView.swift */,
 				1AEC4BE32C72B0D200A50B16 /* ImageDetailView.swift */,
+				1A047E032C743954006517BB /* UserDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -158,6 +195,14 @@
 			isa = PBXGroup;
 			children = (
 				1A047DFA2C740040006517BB /* FlickrImageData.swift */,
+				1AFA1EDB2C75405B0046FA30 /* MockData.swift */,
+				1AFA1EDD2C7540900046FA30 /* FlickrUser.swift */,
+				1AFA1EE02C7540C30046FA30 /* FlickrTagsResponse.swift */,
+				1AFA1EE32C7541120046FA30 /* FlickrPhoto.swift */,
+				1AFA1EE62C7541780046FA30 /* FlickrResponse.swift */,
+				1AFA1EE92C75418D0046FA30 /* FlickrPhotos.swift */,
+				1AFA1EEC2C7541B40046FA30 /* FlickrUserResponse.swift */,
+				1AFA1EEF2C7541C20046FA30 /* FlickrTag.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,6 +223,9 @@
 			dependencies = (
 			);
 			name = "ybs-flickr-challenge";
+			packageProductDependencies = (
+				1A047E012C742E8F006517BB /* TagCloud */,
+			);
 			productName = "ybs-flickr-challenge";
 			productReference = 1AEC4BAD2C72AE1F00A50B16 /* ybs-flickr-challenge.app */;
 			productType = "com.apple.product-type.application";
@@ -250,6 +298,9 @@
 				Base,
 			);
 			mainGroup = 1AEC4BA42C72AE1F00A50B16;
+			packageReferences = (
+				1A047E002C742E8F006517BB /* XCRemoteSwiftPackageReference "TagCloud" */,
+			);
 			productRefGroup = 1AEC4BAE2C72AE1F00A50B16 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -294,8 +345,18 @@
 			files = (
 				1AEC4BB12C72AE1F00A50B16 /* ybs_flickr_challengeApp.swift in Sources */,
 				1AEC4BE02C72B06000A50B16 /* GalleryViewModel.swift in Sources */,
+				1AFA1ED82C744FCC0046FA30 /* UserDetailViewModel.swift in Sources */,
+				1AFA1EE42C7541120046FA30 /* FlickrPhoto.swift in Sources */,
 				1A047DFB2C740040006517BB /* FlickrImageData.swift in Sources */,
+				1AFA1EF02C7541C20046FA30 /* FlickrTag.swift in Sources */,
+				1AFA1EED2C7541B40046FA30 /* FlickrUserResponse.swift in Sources */,
+				1AFA1EEA2C75418D0046FA30 /* FlickrPhotos.swift in Sources */,
+				1AFA1EF32C7544A90046FA30 /* MockGalleryViewModel.swift in Sources */,
 				1AEC4BDE2C72B05500A50B16 /* GalleryView.swift in Sources */,
+				1AFA1EE12C7540C30046FA30 /* FlickrTagsResponse.swift in Sources */,
+				1AFA1EDE2C7540900046FA30 /* FlickrUser.swift in Sources */,
+				1A047E042C743954006517BB /* UserDetailView.swift in Sources */,
+				1AFA1EE72C7541780046FA30 /* FlickrResponse.swift in Sources */,
 				1AEC4BE42C72B0D200A50B16 /* ImageDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +366,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AEC4BC22C72AE2100A50B16 /* ybs_flickr_challengeTests.swift in Sources */,
+				1AFA1EF42C75456F0046FA30 /* GalleryViewModel.swift in Sources */,
+				1AFA1EEE2C7541B40046FA30 /* FlickrUserResponse.swift in Sources */,
+				1AFA1EE52C7541120046FA30 /* FlickrPhoto.swift in Sources */,
+				1AFA1EF22C7542100046FA30 /* FlickrImageData.swift in Sources */,
+				1AFA1EDF2C7540900046FA30 /* FlickrUser.swift in Sources */,
+				1AFA1EE22C7540C30046FA30 /* FlickrTagsResponse.swift in Sources */,
+				1AFA1EF12C7541C20046FA30 /* FlickrTag.swift in Sources */,
+				1AFA1EDC2C75405B0046FA30 /* MockData.swift in Sources */,
+				1AFA1EEB2C75418D0046FA30 /* FlickrPhotos.swift in Sources */,
+				1AFA1EDA2C75403E0046FA30 /* MockGalleryViewModel.swift in Sources */,
+				1AFA1EE82C7541780046FA30 /* FlickrResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,8 +540,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,8 +571,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -630,6 +702,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A047E002C742E8F006517BB /* XCRemoteSwiftPackageReference "TagCloud" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yarspirin/TagCloud.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A047E012C742E8F006517BB /* TagCloud */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A047E002C742E8F006517BB /* XCRemoteSwiftPackageReference "TagCloud" */;
+			productName = TagCloud;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1AEC4BA52C72AE1F00A50B16 /* Project object */;
 }
