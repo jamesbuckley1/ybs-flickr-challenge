@@ -12,21 +12,12 @@ class GalleryViewModel: ObservableObject {
     @Published var searchQuery: [String] = ["Yorkshire"]
     @Published var images: [FlickrImageData] = []
     @Published var inProgress: Bool = false
-    
-    @Published var shouldPresentUserDetailView: Bool = false
-    
-    @Published var isRefreshing: Bool = false
     @Published var hasLoaded: Bool = false
-    
     @Published var selectedPhoto: FlickrPhoto? = nil
     @Published var selectedTag: String? = nil
-    
     @Published var tagMode: Bool = false
     
     private var cancellables = Set<AnyCancellable>()
-    
-    //var selectedTag: FlickrTag
-    
 
     func fetch<T: Decodable>(url: URL, decodingType: T.Type) -> AnyPublisher<T, Error> {
         URLSession.shared.dataTaskPublisher(for: url)
@@ -36,20 +27,7 @@ class GalleryViewModel: ObservableObject {
             .eraseToAnyPublisher()
     }
     
-
     func fetchImagesAndTags() {
-//        if !isRefresh {
-//            hasLoaded = false
-//        }
-        
-       // if hasLoaded { return }
-
-//        if !isRefresh {
-//            inProgress = true
-//        } else {
-//            isRefreshing = true
-//        }
-        
         inProgress = true
         
         fetchImages(withTags: searchQuery)
@@ -61,7 +39,7 @@ class GalleryViewModel: ObservableObject {
                             updatedImage.tags = tags
                             return updatedImage
                         }
-                        .replaceError(with: image) // Return original image data if tags fetching fails
+                        .replaceError(with: image)
                 })
                 .collect()
             }
@@ -123,7 +101,6 @@ class GalleryViewModel: ObservableObject {
             }
             .eraseToAnyPublisher()
     }
-
     
     func fetchUserNames(for photos: [FlickrPhoto]) -> AnyPublisher<[FlickrImageData], Never> {
         let publishers = photos.map { photo in
@@ -152,7 +129,6 @@ class GalleryViewModel: ObservableObject {
             .eraseToAnyPublisher()
     }
     
-
     func fetchUserInfo(userId: String) -> AnyPublisher<FlickrUserResponse, Error> {
         guard let apiKey = Bundle.main.infoDictionary?["API Key"] as? String else {
             return Fail(error: URLError(.userAuthenticationRequired)).eraseToAnyPublisher()
@@ -166,35 +142,12 @@ class GalleryViewModel: ObservableObject {
         
         return fetch(url: url, decodingType: FlickrUserResponse.self)
     }
-    
-//    func navigateToTagView(tag: FlickrTag) {
-//        
-//    }
-//    
-//    func navigateToUserView() {
-//        shouldPresentUserDetailView = true
-//    }
-    
+
     func selectPhoto(_ photo: FlickrPhoto) {
-            selectedPhoto = photo
-        }
+        selectedPhoto = photo
+    }
     
     func selectTag(tag: String) {
         selectedTag = tag
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -10,12 +10,11 @@
 		1A047DFB2C740040006517BB /* FlickrImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A047DFA2C740040006517BB /* FlickrImageData.swift */; };
 		1A047E022C742E8F006517BB /* TagCloud in Frameworks */ = {isa = PBXBuildFile; productRef = 1A047E012C742E8F006517BB /* TagCloud */; };
 		1A047E042C743954006517BB /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A047E032C743954006517BB /* UserDetailView.swift */; };
+		1A2DA8ED2C7565CD0062424F /* FullScreenImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2DA8EC2C7565CD0062424F /* FullScreenImageView.swift */; };
 		1AEC4BB12C72AE1F00A50B16 /* ybs_flickr_challengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BB02C72AE1F00A50B16 /* ybs_flickr_challengeApp.swift */; };
 		1AEC4BB52C72AE2000A50B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC4BB42C72AE2000A50B16 /* Assets.xcassets */; };
 		1AEC4BB82C72AE2000A50B16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEC4BB72C72AE2000A50B16 /* Preview Assets.xcassets */; };
 		1AEC4BC22C72AE2100A50B16 /* ybs_flickr_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BC12C72AE2100A50B16 /* ybs_flickr_challengeTests.swift */; };
-		1AEC4BCC2C72AE2100A50B16 /* ybs_flickr_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BCB2C72AE2100A50B16 /* ybs_flickr_challengeUITests.swift */; };
-		1AEC4BCE2C72AE2100A50B16 /* ybs_flickr_challengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BCD2C72AE2100A50B16 /* ybs_flickr_challengeUITestsLaunchTests.swift */; };
 		1AEC4BDE2C72B05500A50B16 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BDD2C72B05500A50B16 /* GalleryView.swift */; };
 		1AEC4BE02C72B06000A50B16 /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BDF2C72B06000A50B16 /* GalleryViewModel.swift */; };
 		1AEC4BE42C72B0D200A50B16 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEC4BE32C72B0D200A50B16 /* ImageDetailView.swift */; };
@@ -49,28 +48,19 @@
 			remoteGlobalIDString = 1AEC4BAC2C72AE1F00A50B16;
 			remoteInfo = "ybs-flickr-challenge";
 		};
-		1AEC4BC82C72AE2100A50B16 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1AEC4BA52C72AE1F00A50B16 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1AEC4BAC2C72AE1F00A50B16;
-			remoteInfo = "ybs-flickr-challenge";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1A047DFA2C740040006517BB /* FlickrImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrImageData.swift; sourceTree = "<group>"; };
 		1A047DFC2C740CD7006517BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1A047E032C743954006517BB /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		1A2DA8EC2C7565CD0062424F /* FullScreenImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenImageView.swift; sourceTree = "<group>"; };
 		1AEC4BAD2C72AE1F00A50B16 /* ybs-flickr-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ybs-flickr-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AEC4BB02C72AE1F00A50B16 /* ybs_flickr_challengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ybs_flickr_challengeApp.swift; sourceTree = "<group>"; };
 		1AEC4BB42C72AE2000A50B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AEC4BB72C72AE2000A50B16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1AEC4BBD2C72AE2100A50B16 /* ybs-flickr-challengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ybs-flickr-challengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AEC4BC12C72AE2100A50B16 /* ybs_flickr_challengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ybs_flickr_challengeTests.swift; sourceTree = "<group>"; };
-		1AEC4BC72C72AE2100A50B16 /* ybs-flickr-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ybs-flickr-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AEC4BCB2C72AE2100A50B16 /* ybs_flickr_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ybs_flickr_challengeUITests.swift; sourceTree = "<group>"; };
-		1AEC4BCD2C72AE2100A50B16 /* ybs_flickr_challengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ybs_flickr_challengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1AEC4BDD2C72B05500A50B16 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		1AEC4BDF2C72B06000A50B16 /* GalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
 		1AEC4BE32C72B0D200A50B16 /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
@@ -102,13 +92,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1AEC4BC42C72AE2100A50B16 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -117,7 +100,6 @@
 			children = (
 				1AEC4BAF2C72AE1F00A50B16 /* ybs-flickr-challenge */,
 				1AEC4BC02C72AE2100A50B16 /* ybs-flickr-challengeTests */,
-				1AEC4BCA2C72AE2100A50B16 /* ybs-flickr-challengeUITests */,
 				1AEC4BAE2C72AE1F00A50B16 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,7 +109,6 @@
 			children = (
 				1AEC4BAD2C72AE1F00A50B16 /* ybs-flickr-challenge.app */,
 				1AEC4BBD2C72AE2100A50B16 /* ybs-flickr-challengeTests.xctest */,
-				1AEC4BC72C72AE2100A50B16 /* ybs-flickr-challengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,15 +143,6 @@
 			path = "ybs-flickr-challengeTests";
 			sourceTree = "<group>";
 		};
-		1AEC4BCA2C72AE2100A50B16 /* ybs-flickr-challengeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1AEC4BCB2C72AE2100A50B16 /* ybs_flickr_challengeUITests.swift */,
-				1AEC4BCD2C72AE2100A50B16 /* ybs_flickr_challengeUITestsLaunchTests.swift */,
-			);
-			path = "ybs-flickr-challengeUITests";
-			sourceTree = "<group>";
-		};
 		1AEC4BDA2C72B01700A50B16 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +159,7 @@
 				1AEC4BDD2C72B05500A50B16 /* GalleryView.swift */,
 				1AEC4BE32C72B0D200A50B16 /* ImageDetailView.swift */,
 				1A047E032C743954006517BB /* UserDetailView.swift */,
+				1A2DA8EC2C7565CD0062424F /* FullScreenImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -248,24 +221,6 @@
 			productReference = 1AEC4BBD2C72AE2100A50B16 /* ybs-flickr-challengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1AEC4BC62C72AE2100A50B16 /* ybs-flickr-challengeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1AEC4BD72C72AE2100A50B16 /* Build configuration list for PBXNativeTarget "ybs-flickr-challengeUITests" */;
-			buildPhases = (
-				1AEC4BC32C72AE2100A50B16 /* Sources */,
-				1AEC4BC42C72AE2100A50B16 /* Frameworks */,
-				1AEC4BC52C72AE2100A50B16 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1AEC4BC92C72AE2100A50B16 /* PBXTargetDependency */,
-			);
-			name = "ybs-flickr-challengeUITests";
-			productName = "ybs-flickr-challengeUITests";
-			productReference = 1AEC4BC72C72AE2100A50B16 /* ybs-flickr-challengeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -280,10 +235,6 @@
 						CreatedOnToolsVersion = 15.2;
 					};
 					1AEC4BBC2C72AE2100A50B16 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 1AEC4BAC2C72AE1F00A50B16;
-					};
-					1AEC4BC62C72AE2100A50B16 = {
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = 1AEC4BAC2C72AE1F00A50B16;
 					};
@@ -307,7 +258,6 @@
 			targets = (
 				1AEC4BAC2C72AE1F00A50B16 /* ybs-flickr-challenge */,
 				1AEC4BBC2C72AE2100A50B16 /* ybs-flickr-challengeTests */,
-				1AEC4BC62C72AE2100A50B16 /* ybs-flickr-challengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -329,13 +279,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1AEC4BC52C72AE2100A50B16 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -348,6 +291,7 @@
 				1AFA1ED82C744FCC0046FA30 /* UserDetailViewModel.swift in Sources */,
 				1AFA1EE42C7541120046FA30 /* FlickrPhoto.swift in Sources */,
 				1A047DFB2C740040006517BB /* FlickrImageData.swift in Sources */,
+				1A2DA8ED2C7565CD0062424F /* FullScreenImageView.swift in Sources */,
 				1AFA1EF02C7541C20046FA30 /* FlickrTag.swift in Sources */,
 				1AFA1EED2C7541B40046FA30 /* FlickrUserResponse.swift in Sources */,
 				1AFA1EEA2C75418D0046FA30 /* FlickrPhotos.swift in Sources */,
@@ -380,15 +324,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1AEC4BC32C72AE2100A50B16 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1AEC4BCE2C72AE2100A50B16 /* ybs_flickr_challengeUITestsLaunchTests.swift in Sources */,
-				1AEC4BCC2C72AE2100A50B16 /* ybs_flickr_challengeUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -396,11 +331,6 @@
 			isa = PBXTargetDependency;
 			target = 1AEC4BAC2C72AE1F00A50B16 /* ybs-flickr-challenge */;
 			targetProxy = 1AEC4BBE2C72AE2100A50B16 /* PBXContainerItemProxy */;
-		};
-		1AEC4BC92C72AE2100A50B16 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1AEC4BAC2C72AE1F00A50B16 /* ybs-flickr-challenge */;
-			targetProxy = 1AEC4BC82C72AE2100A50B16 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -626,42 +556,6 @@
 			};
 			name = Release;
 		};
-		1AEC4BD82C72AE2100A50B16 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8Y3GD7A447;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jamespgbuckley.ybs-flickr-challengeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ybs-flickr-challenge";
-			};
-			name = Debug;
-		};
-		1AEC4BD92C72AE2100A50B16 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8Y3GD7A447;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jamespgbuckley.ybs-flickr-challengeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "ybs-flickr-challenge";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -688,15 +582,6 @@
 			buildConfigurations = (
 				1AEC4BD52C72AE2100A50B16 /* Debug */,
 				1AEC4BD62C72AE2100A50B16 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1AEC4BD72C72AE2100A50B16 /* Build configuration list for PBXNativeTarget "ybs-flickr-challengeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1AEC4BD82C72AE2100A50B16 /* Debug */,
-				1AEC4BD92C72AE2100A50B16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

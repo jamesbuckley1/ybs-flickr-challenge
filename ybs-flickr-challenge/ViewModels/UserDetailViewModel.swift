@@ -9,12 +9,13 @@ import Combine
 import SwiftUI
 
 class UserDetailViewModel: ObservableObject {
-    let user: FlickrUser
     @Published var photos: [FlickrPhoto] = []
     @Published var inProgress: Bool = false
     @Published var isRefreshing: Bool = false
     @Published var hasLoaded: Bool = false
     @Published var selectedPhoto: FlickrPhoto? = nil
+    
+    let user: FlickrUser
     private var cancellables = Set<AnyCancellable>()
     
     init(user: FlickrUser) {
@@ -65,10 +66,6 @@ class UserDetailViewModel: ObservableObject {
     }
     
     func selectPhoto(_ photo: FlickrPhoto) {
-            selectedPhoto = photo
-        }
-
-        func deselectPhoto() {
-            //selectedPhoto = nil
-        }
+        selectedPhoto = photo
+    }
 }

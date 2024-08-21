@@ -13,14 +13,12 @@ struct ImageDetailView: View {
     var body: some View {
         VStack {
             Rectangle()
-                .fill(Color.gray)
+                .fill(.gray)
                 .frame(height: 300)
                 .cornerRadius(10)
-            
             Text("Image Details")
                 .font(.headline)
                 .padding()
-            
             Spacer()
         }
         .navigationTitle("Image Details")
@@ -28,6 +26,15 @@ struct ImageDetailView: View {
     }
 }
 
-//#Preview {
-//    ImageDetailView()
-//}
+#Preview {
+    ImageDetailView(
+        image: FlickrPhoto(
+            id: "id",
+            title: "photo",
+            farm: 0,
+            server: "server",
+            secret: "secret",
+            owner: "owner",
+            datetaken: nil)
+    )
+}

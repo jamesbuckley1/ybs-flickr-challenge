@@ -227,7 +227,6 @@ struct ImageProfileHeader: View {
                     .font(.subheadline)
                     .foregroundColor(.secondary)
             }
-
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(10)

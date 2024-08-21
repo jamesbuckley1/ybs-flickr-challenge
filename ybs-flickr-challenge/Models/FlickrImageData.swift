@@ -5,8 +5,6 @@
 //  Created by James Buckley on 19/08/2024.
 //
 
-//import Foundation
-
 struct FlickrImageData: Identifiable, Equatable {
     let id: String
     let user: FlickrUser
@@ -14,9 +12,9 @@ struct FlickrImageData: Identifiable, Equatable {
     var tags: [String] = []
     
     static func == (lhs: FlickrImageData, rhs: FlickrImageData) -> Bool {
-            return lhs.id == rhs.id &&
-                   lhs.user == rhs.user &&
-                   lhs.photo == rhs.photo &&
-                   lhs.tags == rhs.tags
-        }
+        return lhs.id == rhs.id &&
+               lhs.user == rhs.user &&
+               lhs.photo == rhs.photo &&
+               lhs.tags == rhs.tags
+    }
 }
